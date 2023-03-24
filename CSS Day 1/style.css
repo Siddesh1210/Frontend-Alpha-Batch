@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500&display=swap');
+
+/* p
+{
+    color:red;
+}
+h1{
+    color:blue;
+}
+
+ul{
+    color:rgb(255, 251, 0);
+} */
+
+#para1
+{
+    color:red;
+    background-color: black;
+}
+
+#para-bg
+{
+    /* background-image: url(https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000); */
+    /* background-image: url(https://images.unsplash.com/photo-1483232539664-d89822fb5d3e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvdG8lMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&w=1000&q=80); */
+    background-image:url('./pexels-victor-freitas-600114.jpg');
+    color:aliceblue;
+}
+
+#divison
+{
+    background-image: url('./pexels-victor-freitas-600114.jpg');
+}
+
+#font-style
+{
+    font-size: 20px;
+    font-weight: lighter;
+    /* font-family:sans-serif; */
+    font-family: 'Alkatra', cursive;
+}
+
+/* .para
+{
+    color:blue;
+}
+
+p{
+    color:blueviolet;
+}
+
+
+.text-style
+{
+    color:green;
+} */
