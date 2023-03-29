@@ -1,0 +1,49 @@
+.divison
+{
+    border:1px solid red;
+    display: inline;
+    width:600px;
+    height:300px;
+}
+
+.image
+{
+    display: block;
+}
+
+.box
+{
+    width:300px;
+    height:300px;
+    border:1px solid red;
+    display:inline-block;
+    margin:10px;
+}
+
+.box2
+{
+
+    /* Realtive -- when i want to move my element from it original positions but it will not leave it previous place */
+
+    /* Absolute -- It will leave it original Position and it will adjust itself according too his parent */
+    /* position: fixed; */
+    /* top/left/right/bottom */
+    /* top:100px; */
+    /* left:500px; */
+    /* bottom:10px;
+    right:20px;
+    background-color: rgb(0, 255, 68);
+    width:100px !important;
+    padding:10px;
+    text-align: center;
+    height:30px;
+    color:white;
+    font-size:16px;
+    border-radius: 20px;
+    border:none !important;
+    font-weight: bolder; */
+
+    position: sticky;
+    top:5px;
+    background-color: aqua;
+}
