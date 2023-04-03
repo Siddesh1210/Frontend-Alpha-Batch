@@ -1,0 +1,138 @@
+.box
+{
+    width:300px;
+    height:300px;
+    border:1px solid red;
+    display: inline-block;
+    margin:20px;
+    background-color: red;
+    animation-name:box-animation;
+    animation-duration:10s;
+    animation-timing-function: ease-in-out;
+    animation-delay:3s;
+    /* animation-direction: ; */
+    animation-iteration-count: infinite;
+}
+
+@keyframes box-animation {
+    20%{
+        background-color: yellow;
+    }
+    40%
+    {
+        background-color:green;
+    }
+    60%
+    {
+        background-color:orange;
+    }
+    80%
+    {
+        background-color:blue;
+    }
+    100%
+    {
+        background-color:red;
+    }
+}
+
+#box1
+{
+    background-color: blueviolet;
+    position:relative;
+    z-index:4;
+}
+
+#box2
+{
+    background-color: blue;
+    position: relative;
+    top:100px;
+    left:-200px;
+    z-index:3;
+}
+
+#box3
+{
+    background-color: tomato;
+    position: relative;
+    top:200px;
+    left:-400px;
+    z-index:5;
+
+}
+
+ul li:nth-child(odd)
+{
+    color:red;
+}
+
+.image:hover
+{
+    filter:grayscale(1);
+    /* transition:5s ease-in-out; */
+}
+
+input{
+    font-size:20px;
+    border:1px solid tomato;
+    border-radius:6px;
+    padding:5px 10px;
+}
+input:focus{
+    outline:none;
+    border:1px solid rgb(1, 253, 118);
+}
+
+.para1::first-letter
+{
+    color:green;
+    font-size:20px;
+    font-weight:bold;
+}
+
+
+::selection
+{
+    background-color: red;
+    color:white;
+}
+
+.card
+{
+    width:300px;
+    border:1px solid red;
+    border-radius:8px;
+    padding:5px;
+    margin:20px auto;
+    /* animation-name: card-animation; */
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    /* animation-iteration-count: infinite; */
+    animation-delay: 3s;
+}
+
+/* .card:hover{
+    
+} */
+/* Destination */
+@keyframes card-animation
+{
+    to
+    {
+        transform:skew(180deg);
+    }
+}
+
+.img-parent
+{
+    width:300px;
+    height:150px;
+}
+
+.img-parent img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    border-radius:8px;
+}
